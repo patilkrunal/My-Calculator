@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Simple Calculator</h1>
+	<br>
+	<form id="myform" name="calculator">
+		<input id="dis" name="display">
+		<br>
+		<input type=button value="1" Onclick="calculator.display.value+='1'">
+		<input type=button value="2" Onclick="calculator.display.value+='2'">
+		<input type=button value="3" Onclick="calculator.display.value+='3'">
+		<input type=button value="+" Onclick="calculator.display.value+='+'">
+		<br>
+		<input type=button value="4" Onclick="calculator.display.value+='4'">
+		<input type=button value="5" Onclick="calculator.display.value+='5'">
+		<input type=button value="6" Onclick="calculator.display.value+='6'">
+		<input type=button value="-" Onclick="calculator.display.value+='-'">
+		<br>
+		<input type=button value="7" Onclick="calculator.display.value+='7'">
+		<input type=button value="8" Onclick="calculator.display.value+='8'">
+		<input type=button value="9" Onclick="calculator.display.value+='9'">
+		<input type=button value="x" Onclick="calculator.display.value+='*'">
+		<br>
+		<input type=button value="C" Onclick="calculator.display.value=''">
+		<input type=button value="0" Onclick="calculator.display.value+='0'">
+		<input type=button value="&divide;" Onclick="calculator.display.value+='/'">
+		<input type=button value="." Onclick="calculator.display.value+='.'">
+		<input type=button value="=" Onclick="calculator.display.value=eval(calculator.display.value)">
+	</form>
+</body>
+</html>
